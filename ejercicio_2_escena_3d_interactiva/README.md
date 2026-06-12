@@ -124,7 +124,7 @@ La escena cumple los requerimientos obligatorios:
 
 ### Evidencia de funcionamiento
 
-![Funcionamiento de la escena 3D interactiva](./result.gif)
+![Funcionamiento de la escena 3D interactiva](./demo.gif)
 
 ## Dificultades y solucion
 

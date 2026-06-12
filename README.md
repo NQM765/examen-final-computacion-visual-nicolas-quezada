@@ -179,7 +179,7 @@ Resultados generados:
 
 Demostracion de la escena 3D interactiva:
 
-![Funcionamiento de la escena 3D](./ejercicio_2_escena_3d_interactiva/result.gif)
+![Funcionamiento de la escena 3D](./ejercicio_2_escena_3d_interactiva/demo.gif)
 
 ## Analisis tecnico
 
