@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exploracion submarina 3D</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
+          "three/examples/jsm/": "https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="scene"></canvas>
+    <section class="hud">
+      <div>
+        <p class="eyebrow">Ejercicio 2</p>
+        <h1>Estacion submarina interactiva</h1>
+        <p>
+          Controla el submarino, explora muestras bioluminiscentes y observa
+          como los peces reaccionan a la proximidad.
+        </p>
+      </div>
+      <div class="controls">
+        <span><strong>WASD / Flechas:</strong> mover submarino</span>
+        <span><strong>Q / E:</strong> subir y bajar</span>
+        <span><strong>Click:</strong> inspeccionar criatura u objeto</span>
+        <span><strong>Mouse:</strong> orbitar camara</span>
+      </div>
+      <label>
+        Velocidad
+        <input id="speedControl" type="range" min="0.4" max="2.4" step="0.1" value="1.2" />
+      </label>
+      <label>
+        Intensidad del faro
+        <input id="lightControl" type="range" min="0.5" max="6" step="0.1" value="3.2" />
+      </label>
+      <button id="scanButton" type="button">Activar pulso sonar</button>
+      <p id="status" class="status">Muestras analizadas: 0 / 5</p>
+    </section>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
